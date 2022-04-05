@@ -85,6 +85,15 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover{
+    transition: 4s;
+    transition-delay: 1s;
+    border-radius: 30px;
+    width: 700px;
+    filter: brightness(200%) opacity(30%);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
