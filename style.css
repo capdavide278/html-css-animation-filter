@@ -201,3 +201,59 @@
         right: 20%;
     }
 }
+
+.ex-13-top-white{
+    animation: giro 4s infinite;
+    animation-direction: linear;
+}
+
+@keyframes giro{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    25%{
+        top: -20px;
+        left: 72%;
+    }
+     50%{
+        top: 47px;
+        left: 72%;
+    }
+     75%{
+        top: 47px;
+        left: -8%;
+    }
+    100%{
+        top: -10px;
+        left: -11%;
+    }
+}
+
+.ex-13-bottom-white{
+    animation: girogiù 4s infinite;
+    animation-direction: linear;
+}
+
+@keyframes girogiù{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    25%{
+        bottom: -10px;
+        right: 75%;
+    }
+    50%{
+        bottom: 50px;
+        right: 75%;
+    }
+    75%{
+        bottom: 50px;
+        right: -10%;
+    }
+  100%{
+        bottom: -10px;
+        right: 0%;
+    }
+}
